@@ -1,0 +1,40 @@
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# Docker build context
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Local env files
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+cache/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+IIS.txt
+nginx.txt
+
+# Node modules (if any frontend build)
+node_modules/
+npm-debug.log*
+
+# Local composer vendor (bundled in image to avoid network/audit issues)
+# includes/vendor/
+
+# Backup files
+*.bak
+*.swp
+*.tmp

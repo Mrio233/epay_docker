@@ -1,0 +1,26 @@
+.env
+.env.local
+.env.*.local
+
+# Runtime generated
+config.php
+install/install.lock
+cache/
+logs/
+*.log
+
+# Composer dependencies (should be installed by user)
+includes/vendor/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup
+*.bak
+*.swp
+*.tmp
